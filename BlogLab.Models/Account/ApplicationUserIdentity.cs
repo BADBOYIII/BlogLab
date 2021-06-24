@@ -6,7 +6,7 @@ namespace BlogLab.Models.Account
 {
     public class ApplicationUserIdentity
     {
-        public int ApplicationuserId { get; set; }
+        public int ApplicationUserId { get; set; }
 
         public string Username { get; set; }
 
