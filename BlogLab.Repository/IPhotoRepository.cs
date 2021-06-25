@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlogLab.Repository
 {
-    interface IPhotoRepository
+    public interface IPhotoRepository
     {
         public Task<Photo> InsertAsync(PhotoCreate photoCreate, int applicationUserId);
 
@@ -14,6 +14,6 @@ namespace BlogLab.Repository
 
         public Task<List<Photo>> GetAllByUserIdAsync(int applicationUserId);
 
-        public Task<int> DeleteAsync(int photoId);
+        public Task<int> DeletetAsync(int photoId);
     }
 }

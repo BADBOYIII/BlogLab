@@ -9,7 +9,7 @@ using System.Text;
 
 namespace BlogLab.Services
 {
-    class TokenService : ITokenService
+    public class TokenService : ITokenService
     {
         private readonly SymmetricSecurityKey _key;
         private readonly string _issuer;

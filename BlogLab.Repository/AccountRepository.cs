@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace BlogLab.Repository
 {
-    
     public class AccountRepository : IAccountRepository
     {
         private readonly IConfiguration _config;
+
         public AccountRepository(IConfiguration config)
         {
             _config = config;
@@ -40,20 +40,17 @@ namespace BlogLab.Repository
                 user.NormalizedEmail,
                 user.Fullname,
                 user.PasswordHash
-            );
+                );
 
             using (var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection")))
             {
                 await connection.OpenAsync(cancellationToken);
 
-                await connection.ExecuteAsync(
-                    "Account_Insert",
-                    new { Account = dataTable.AsTableValuedParameter("dbo.AccountType") },
-                    commandType: CommandType.StoredProcedure
-                );
-
-                return IdentityResult.Success;                
+                await connection.ExecuteAsync("Account_Insert",
+                    new { Account = dataTable.AsTableValuedParameter("dbo.AccountType") }, commandType: CommandType.StoredProcedure);
             }
+
+            return IdentityResult.Success;
         }
 
         public async Task<ApplicationUserIdentity> GetByUsernameAsync(string normalizedUsername, CancellationToken cancellationToken)
@@ -69,12 +66,10 @@ namespace BlogLab.Repository
                 applicationUser = await connection.QuerySingleOrDefaultAsync<ApplicationUserIdentity>(
                     "Account_GetByUsername", new { NormalizedUsername = normalizedUsername },
                     commandType: CommandType.StoredProcedure
-                );
-
-                return applicationUser;
-
-
+                    );
             }
+
+            return applicationUser;
         }
     }
 }
