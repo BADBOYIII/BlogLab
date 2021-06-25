@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Tutorials\\Angular\\BlogLab\\bloglab.web\\BlogLab.Web.csproj": {}
+    "C:\\Projects\\Tutorials\\Angular\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {}
   },
   "projects": {
     "C:\\Projects\\Tutorials\\Angular\\BlogLab\\BlogLab.Identity\\BlogLab.Identity.csproj": {
@@ -291,14 +291,14 @@
         }
       }
     },
-    "C:\\Projects\\Tutorials\\Angular\\BlogLab\\bloglab.web\\BlogLab.Web.csproj": {
+    "C:\\Projects\\Tutorials\\Angular\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\bloglab.web\\BlogLab.Web.csproj",
+        "projectUniqueName": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
         "projectName": "BlogLab.Web",
-        "projectPath": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\bloglab.web\\BlogLab.Web.csproj",
+        "projectPath": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
         "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\bloglab.web\\obj\\",
+        "outputPath": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\BlogLab.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

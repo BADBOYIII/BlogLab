@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4bjeEjYuuSQdoKK96zwo9VdqpsEUSkb0hsFyIFG+RKMZ0ttsBWq3fOReVefSyf+bG1ZHxKqIDUEOdb1k5h6MbA==",
+  "dgSpecHash": "+dFzBFXN3A9d21PA2YJpMW4psa42Y74VFTmcV+5V0paCsREs+whT4+vyuQBWTob2coQii7oFSYvcgW1yemP1rQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\bloglab.web\\BlogLab.Web.csproj",
+  "projectFilePath": "C:\\Projects\\Tutorials\\Angular\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admins\\.nuget\\packages\\cloudinarydotnet\\1.15.2\\cloudinarydotnet.1.15.2.nupkg.sha512",
     "C:\\Users\\Admins\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
